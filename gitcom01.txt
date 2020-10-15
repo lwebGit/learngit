@@ -1,0 +1,20 @@
+一、建立本地电脑与GitHub自己的账户之间的联系
+（此步骤你已完成，一台电脑只要做一次）
+1、创建SSH Key：打开Git Bash，输入：ssh-keygen -t rsa -C "youremail@example.com"
+2、到C盘用户目录：C:/user/刘珞芊/找到.ssh目录，找到id_rsa.pub文件
+3、用写字板打开此文件并拷贝全部内容。
+4、登陆GitHub，打开“Account settings”，“SSH Keys”页面
+5、点“Add SSH Key”，填上任意Title，在Key文本框里粘贴id_rsa.pub文件的内容
+6、点“Add Key”，你就应该看到已经添加的Key
+二、提交仓库步骤：
+1、建立中文名（刘珞芊）文件夹，考入任务作业
+2、进入此目录下的git bash
+3、建立仓库：git init
+4、建立分支：git branch liuluoqian
+5、切换分支：git chectout liuluoqian
+6、加入文件夹到工作区：git add 刘珞芊
+7、建立控制版本：git commit -m "初始版本"
+8、建立本次仓库与远程仓库联系：git remote add origin git@github.com:llq211/............
+9、上传控制版本：git push -u liuluoqian
+10、修改"刘珞芊"文件夹中的任务文件
+11、重复第6-9步骤。
