@@ -1,3 +1,5 @@
+
+
 1.基本操作
 mkdir  新建文件夹。（也可以在资源管理器中直接新建）
 cd  进入一个文件夹。
@@ -14,6 +16,16 @@ git log   显示从最近到最远的提交日志。
 git reset --hard HEAD<版本号前几位字符> 还原版本。
 cat  <file>   查看文件内容。
 git reflog   查看提交历史版本及版本号。
+git branch   建立分支
+git checkou  切换分支
+查看分支：git branch
+创建分支：git branch <name>
+切换分支：git checkout <name>或者git switch <name>
+创建+切换分支：git checkout -b <name>或者git switch -c <name>
+合并某分支到当前分支：git merge <name>
+删除分支：git branch -d <name>
+
+
 一、建立本地电脑与GitHub自己的账户之间的联系
 （此步骤你已完成，一台电脑只要做一次）
 1、创建SSH Key：打开Git Bash，输入：ssh-keygen -t rsa -C "youremail@example.com"
