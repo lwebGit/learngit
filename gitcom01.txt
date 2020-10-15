@@ -1,3 +1,19 @@
+1.基本操作
+mkdir  新建文件夹。（也可以在资源管理器中直接新建）
+cd  进入一个文件夹。
+pwd  显示当前文件夹。
+dir  显示当前目录。
+ls -ah  显示隐藏目录。
+2.建立版本控制操作
+git init  把这个目录变成Git可以管理的仓库。
+git add <file>   告诉Git，把文件添加到仓库。
+git commit -m <message>  告诉Git，把文件提交到仓库。
+git status  掌握仓库当前的状态.
+git diff  查看修改内容。
+git log   显示从最近到最远的提交日志。
+git reset --hard HEAD<版本号前几位字符> 还原版本。
+cat  <file>   查看文件内容。
+git reflog   查看提交历史版本及版本号。
 一、建立本地电脑与GitHub自己的账户之间的联系
 （此步骤你已完成，一台电脑只要做一次）
 1、创建SSH Key：打开Git Bash，输入：ssh-keygen -t rsa -C "youremail@example.com"
@@ -18,3 +34,4 @@
 9、上传控制版本：git push -u liuluoqian
 10、修改"刘珞芊"文件夹中的任务文件
 11、重复第6-9步骤。
+
